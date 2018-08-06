@@ -1,0 +1,54 @@
+{
+  "name": "reactadvenced",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/server.js",
+  "scripts": {
+    "dev": "set NODE_PATH=./lib&& nodemon --exec babel-node lib/server.js",
+    "build": "webpack -wd",
+    "build-webpack": "webpack -p",
+    "test": "jest --watchAll",
+    "verify-tests": "jest --coverage",
+    "build-node": "babel lib -d build --copy-files"
+  },
+  "jest": {
+    "testURL": "http://localhost/"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      ["env", {"targets": {"node": "current"}}]
+    ],
+    "plugins": [
+      "transform-class-properties",
+      "transform-object-rest-spread"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "jest": "^23.4.2",
+    "lodash.debounce": "^4.0.8",
+    "lodash.pickby": "^4.6.0",
+    "pm2": "^3.0.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-addons-perf": "^15.4.2",
+    "react-dom": "^16.4.2",
+    "react-test-renderer": "^16.4.2",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0"
+  }
+}

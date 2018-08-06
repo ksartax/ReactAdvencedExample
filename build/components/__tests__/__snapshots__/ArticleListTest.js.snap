@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList test poprawne renderowanie 1`] = `
+<div>
+  <table>
+    <tr>
+      <td>
+        <div
+          style={
+            Object {
+              "borderBottomColor": "#aaa",
+              "borderBottomStyle": "solid",
+              "borderBottomWidth": 1,
+              "marginBottom": 10,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             
+             
+          </div>
+          <div>
+             
+            Invalid Date
+             
+          </div>
+          <div
+            style={
+              Object {
+                "paddingBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <a>
+               
+            </a>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 20,
+              }
+            }
+          >
+             
+             
+          </div>
+        </div>
+      </td>
+      <td>
+        <button
+          data-id="a"
+          onClick={[MockFunction]}
+        >
+           Kasuj 
+        </button>
+      </td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td>
+        <div
+          style={
+            Object {
+              "borderBottomColor": "#aaa",
+              "borderBottomStyle": "solid",
+              "borderBottomWidth": 1,
+              "marginBottom": 10,
+              "paddingBottom": 10,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+             
+             
+          </div>
+          <div>
+             
+            Invalid Date
+             
+          </div>
+          <div
+            style={
+              Object {
+                "paddingBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <a>
+               
+            </a>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 20,
+              }
+            }
+          >
+             
+             
+          </div>
+        </div>
+      </td>
+      <td>
+        <button
+          data-id="b"
+          onClick={[MockFunction]}
+        >
+           Kasuj 
+        </button>
+      </td>
+    </tr>
+  </table>
+</div>
+`;

@@ -1,0 +1,6 @@
+{
+  "name": "state-api",
+  "version": "lib/index.js",
+  "main": "lib/index.js",
+  "license": "MIT"
+}
